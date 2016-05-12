@@ -8,6 +8,7 @@
 
 #import "DrawViewController.h"
 #import "LCScheduleView.h"
+#import "LCCopyToSomeDayViewController.h"
 @interface DrawViewController ()
 - (IBAction)gotoBack:(UIButton *)sender;
 @property (nonatomic ,strong) NSArray *dataArray;
@@ -23,8 +24,8 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    CGFloat W = [UIScreen mainScreen].bounds.size.width;
-    CGFloat H = [UIScreen mainScreen].bounds.size.height;
+    CGFloat W = [UIScreen mainScreen].bounds.size.height;
+    CGFloat H = [UIScreen mainScreen].bounds.size.width;
     
     
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(updateOneDaySchedule:) name:@"oneDaySchedule" object:nil];
@@ -42,11 +43,10 @@
 }
 - (void)scheduleCopyToAction:(NSNotification *)notifi{
     NSDictionary *dict = notifi.object;
-//    LCCopyToSomeDayViewController *copyVC = [[LCCopyToSomeDayViewController alloc]init];
-//    copyVC.copyFromIndex = [dict[@"weekday"] integerValue];
-//    copyVC.ProgramTime = dict[@"ProgramTime"];
-//    copyVC.nodeId = self.nodeId;
-//    [self presentViewController:copyVC animated:YES completion:nil];
+    LCCopyToSomeDayViewController *copyVC = [[LCCopyToSomeDayViewController alloc]init];
+    copyVC.copyFromIndex = [dict[@"weekday"] integerValue];
+    copyVC.ProgramTime = dict[@"ProgramTime"];
+    [self presentViewController:copyVC animated:YES completion:nil];
 }
 - (BOOL)prefersStatusBarHidden{
     return NO;

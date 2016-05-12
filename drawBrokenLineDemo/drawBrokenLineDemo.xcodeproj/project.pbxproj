@@ -35,6 +35,13 @@
 		D274D8961CE4429C0082E2C4 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D274D8891CE4429C0082E2C4 /* NSObject+MJProperty.m */; };
 		D274D8971CE4429C0082E2C4 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D274D88B1CE4429C0082E2C4 /* NSString+MJExtension.m */; };
 		D274D8981CE4429C0082E2C4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D274D88C1CE4429C0082E2C4 /* README.md */; };
+		D274D89C1CE44FF40082E2C4 /* LCCopyToSomeDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D274D89A1CE44FF40082E2C4 /* LCCopyToSomeDayViewController.m */; };
+		D274D89D1CE44FF40082E2C4 /* LCCopyToSomeDayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D274D89B1CE44FF40082E2C4 /* LCCopyToSomeDayViewController.xib */; };
+		D274D8A21CE450860082E2C4 /* LCSelectBoxTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D274D89F1CE450860082E2C4 /* LCSelectBoxTableView.m */; };
+		D274D8A31CE450860082E2C4 /* LCSelectedBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D274D8A11CE450860082E2C4 /* LCSelectedBoxCell.m */; };
+		D274D8A61CE450B30082E2C4 /* LCSelectedBoxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D274D8A51CE450B30082E2C4 /* LCSelectedBoxModel.m */; };
+		D274D8A91CE4512A0082E2C4 /* LCSubmitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D274D8A81CE4512A0082E2C4 /* LCSubmitButton.m */; };
+		D274D8AB1CE453320082E2C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D274D8AA1CE453320082E2C4 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +116,18 @@
 		D274D88A1CE4429C0082E2C4 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		D274D88B1CE4429C0082E2C4 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
 		D274D88C1CE4429C0082E2C4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D274D8991CE44FF40082E2C4 /* LCCopyToSomeDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCopyToSomeDayViewController.h; sourceTree = "<group>"; };
+		D274D89A1CE44FF40082E2C4 /* LCCopyToSomeDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCopyToSomeDayViewController.m; sourceTree = "<group>"; };
+		D274D89B1CE44FF40082E2C4 /* LCCopyToSomeDayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCCopyToSomeDayViewController.xib; sourceTree = "<group>"; };
+		D274D89E1CE450860082E2C4 /* LCSelectBoxTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCSelectBoxTableView.h; sourceTree = "<group>"; };
+		D274D89F1CE450860082E2C4 /* LCSelectBoxTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCSelectBoxTableView.m; sourceTree = "<group>"; };
+		D274D8A01CE450860082E2C4 /* LCSelectedBoxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCSelectedBoxCell.h; sourceTree = "<group>"; };
+		D274D8A11CE450860082E2C4 /* LCSelectedBoxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCSelectedBoxCell.m; sourceTree = "<group>"; };
+		D274D8A41CE450B30082E2C4 /* LCSelectedBoxModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCSelectedBoxModel.h; sourceTree = "<group>"; };
+		D274D8A51CE450B30082E2C4 /* LCSelectedBoxModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCSelectedBoxModel.m; sourceTree = "<group>"; };
+		D274D8A71CE4512A0082E2C4 /* LCSubmitButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCSubmitButton.h; sourceTree = "<group>"; };
+		D274D8A81CE4512A0082E2C4 /* LCSubmitButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCSubmitButton.m; sourceTree = "<group>"; };
+		D274D8AA1CE453320082E2C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +178,17 @@
 		D21BE0A01C755FFA00BA4CFA /* drawBrokenLineDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D274D8A71CE4512A0082E2C4 /* LCSubmitButton.h */,
+				D274D8A81CE4512A0082E2C4 /* LCSubmitButton.m */,
+				D274D8A41CE450B30082E2C4 /* LCSelectedBoxModel.h */,
+				D274D8A51CE450B30082E2C4 /* LCSelectedBoxModel.m */,
+				D274D89E1CE450860082E2C4 /* LCSelectBoxTableView.h */,
+				D274D89F1CE450860082E2C4 /* LCSelectBoxTableView.m */,
+				D274D8A01CE450860082E2C4 /* LCSelectedBoxCell.h */,
+				D274D8A11CE450860082E2C4 /* LCSelectedBoxCell.m */,
+				D274D8991CE44FF40082E2C4 /* LCCopyToSomeDayViewController.h */,
+				D274D89A1CE44FF40082E2C4 /* LCCopyToSomeDayViewController.m */,
+				D274D89B1CE44FF40082E2C4 /* LCCopyToSomeDayViewController.xib */,
 				D274D85F1CE42C7E0082E2C4 /* LCScheduleView */,
 				D21BE0A41C755FFA00BA4CFA /* AppDelegate.h */,
 				D21BE0DE1C756D0400BA4CFA /* AppDelegate.m */,
@@ -170,6 +200,7 @@
 				D21BE0D61C7560D200BA4CFA /* DrawViewController.xib */,
 				D21BE0AF1C755FFA00BA4CFA /* LaunchScreen.storyboard */,
 				D21BE0B21C755FFA00BA4CFA /* Info.plist */,
+				D274D8AA1CE453320082E2C4 /* Assets.xcassets */,
 				D21BE0A11C755FFA00BA4CFA /* Supporting Files */,
 			);
 			path = drawBrokenLineDemo;
@@ -368,6 +399,8 @@
 				D21BE0B11C755FFA00BA4CFA /* LaunchScreen.storyboard in Resources */,
 				D274D8731CE42EE10082E2C4 /* ProgramTime.plist in Resources */,
 				D21BE0DD1C756B9400BA4CFA /* RootViewController.xib in Resources */,
+				D274D8AB1CE453320082E2C4 /* Assets.xcassets in Resources */,
+				D274D89D1CE44FF40082E2C4 /* LCCopyToSomeDayViewController.xib in Resources */,
 				D274D88D1CE4429C0082E2C4 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +426,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D274D8A91CE4512A0082E2C4 /* LCSubmitButton.m in Sources */,
+				D274D89C1CE44FF40082E2C4 /* LCCopyToSomeDayViewController.m in Sources */,
 				D274D8941CE4429C0082E2C4 /* NSObject+MJCoding.m in Sources */,
 				D274D8921CE4429C0082E2C4 /* MJPropertyType.m in Sources */,
 				D274D88E1CE4429C0082E2C4 /* MJExtensionConst.m in Sources */,
@@ -405,7 +440,9 @@
 				D274D8971CE4429C0082E2C4 /* NSString+MJExtension.m in Sources */,
 				D274D8901CE4429C0082E2C4 /* MJProperty.m in Sources */,
 				D274D85E1CE42C380082E2C4 /* DrawViewController.m in Sources */,
+				D274D8A21CE450860082E2C4 /* LCSelectBoxTableView.m in Sources */,
 				D274D86F1CE42C7E0082E2C4 /* LCScheduleView.m in Sources */,
+				D274D8A61CE450B30082E2C4 /* LCSelectedBoxModel.m in Sources */,
 				D21BE0DF1C756D0400BA4CFA /* AppDelegate.m in Sources */,
 				D274D86D1CE42C7E0082E2C4 /* LCHandleModel.m in Sources */,
 				D274D8961CE4429C0082E2C4 /* NSObject+MJProperty.m in Sources */,
@@ -414,6 +451,7 @@
 				D274D8931CE4429C0082E2C4 /* NSObject+MJClass.m in Sources */,
 				D21BE0A31C755FFA00BA4CFA /* main.m in Sources */,
 				D21BE0DC1C756B9400BA4CFA /* RootViewController.m in Sources */,
+				D274D8A31CE450860082E2C4 /* LCSelectedBoxCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
